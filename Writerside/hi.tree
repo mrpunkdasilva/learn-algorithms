@@ -3,8 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
+                 name="Learn Algorithms"
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
+    <toc-element topic="WhatsALgorithms.md"/>
+    <toc-element topic="What-Kind-of-problems-are-solved-by-algorithms.md"/>
 </instance-profile>

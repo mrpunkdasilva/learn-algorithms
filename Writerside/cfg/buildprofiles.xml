@@ -3,6 +3,26 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <primary-color>forest</primary-color>
+        <og-twitter></og-twitter>
+        <og-image></og-image>
+        <header-logo></header-logo>
+    </variables>
+
+    <footer>
+        <icp></icp>
+        <social type="github" href=""></social>
+        <social type="twitter" href=""></social>>
+        <notice href="" icon=""/>
+        <copyright>Punk Domus</copyright>
+    </footer>
+
+    <icons instance="hi">
+
+    </icons>
+
+    <llms-txt single-file="true"  />
+    <sitemap priority="0.5" change-frequency="monthly" />
 
 </buildprofiles>
