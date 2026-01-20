@@ -7,6 +7,10 @@
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
-    <toc-element topic="WhatsALgorithms.md"/>
-    <toc-element topic="What-Kind-of-problems-are-solved-by-algorithms.md"/>
+    <toc-element toc-title="Domus 1">
+        <toc-element topic="WhatsALgorithms.md"/>
+        <toc-element topic="What-Kind-of-problems-are-solved-by-algorithms.md"/>
+        <toc-element topic="Classication.md"/>
+    </toc-element>
+    <toc-element topic="Insersion-Sort.md"/>
 </instance-profile>
