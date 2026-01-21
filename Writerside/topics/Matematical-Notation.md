@@ -377,7 +377,7 @@ Os quantificadores são símbolos usados para expressar propriedades sobre eleme
 
 ---
 
-### Predicados
+### Predicados {id="predicados_1"}
 
 Um predicado é uma função:
 $$
@@ -397,3 +397,82 @@ $$
 
 
 > See more: [Quantifiers](https://google.com)
+
+
+
+## Sums and products
+
+Considere uma função:
+$$
+f : \mathbb{N} \to \mathbb{R}
+$$
+e um inteiro $n \geq 0$. (Isso inclui funções do tipo $f : \mathbb{N} \to \mathbb{N}$ como caso especial.)
+
+A soma dos valores assumidos por $f$ nos primeiros $n$ inteiros positivos é denotada por:
+$$
+\sum_{i=1}^{n} f(i) = f(1) + f(2) + \cdots + f(n)
+$$
+Essa notação é lida como “a soma de $f(i)$ conforme $i$ vai de 1 até $n$”.
+
+No caso $n = 0$, a soma é definida como 0.
+
+---
+
+### Soma condicional
+
+Se $P$ é uma propriedade dos inteiros, podemos definir:
+$$
+\sum_{P(i)} f(i)
+$$
+como a soma dos valores de $f(i)$ para os inteiros $i$ que satisfazem a propriedade $P$.
+
+Exemplo com notação mista:
+$$
+\sum_{\substack{i=1 \\ i \text{ ímpar}}}^{10} i = 1 + 3 + 5 + 7 + 9 = 25
+$$
+
+---
+
+### Produto
+
+O produto dos valores assumidos por $f$ nos primeiros $n$ inteiros positivos é denotado por:
+$$
+\prod_{i=1}^{n} f(i) = f(1) \times f(2) \times \cdots \times f(n)
+$$
+Lido como “o produto de $f(i)$ conforme $i$ vai de 1 até $n$”.
+
+No caso $n = 0$, o produto é definido como 1.
+
+---
+
+### Notações adicionais
+
+- $$\log \log n$$ representa o logaritmo do logaritmo de $n$.
+- $$\log^2 n$$ representa o quadrado do logaritmo de $n$.
+
+---
+
+### Identidades logarítmicas
+
+- $$\log_a(xy) = \log_a x + \log_a y$$  
+- $$\log_a x^y = y \log_a x$$  
+- $$\log_a x = \frac{\log_b x}{\log_b a}$$  
+- $$x^{\log_b y} = y^{\log_b x}$$
+
+---
+
+### Função piso (floor)
+
+A função piso é denotada por:
+$$
+\lfloor x \rfloor
+$$
+e representa o maior inteiro menor ou igual a $x$.
+
+Exemplo:
+$$
+\left\lfloor \frac{13}{2} \right\rfloor = 6
+$$
+
+
+## Miscellaneous
