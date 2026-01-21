@@ -19,4 +19,8 @@
         <description>Created after removal of "Classificação de Algoritmos" from Learn Algorithms</description>
         <accepts>Classication.html</accepts>
     </rule>
+    <rule id="161670e0">
+        <description>Created after removal of "Elementary Algorithmics" from Learn Algorithms</description>
+        <accepts>Elementary-Algorithmics.html</accepts>
+    </rule>
 </rules>

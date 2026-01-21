@@ -474,5 +474,121 @@ $$
 \left\lfloor \frac{13}{2} \right\rfloor = 6
 $$
 
+> See more: [Sums and Products](https://google.com)
+
 
 ## Miscellaneous
+
+### Função piso (floor) {id="fun-o-piso-floor_1"}
+
+A função piso de um número real $x$ é:
+$$
+\lfloor x \rfloor
+$$
+Ela representa o maior inteiro menor ou igual a $x$.
+
+Exemplo:
+$$
+\lfloor -3.5 \rfloor = -4
+$$
+
+---
+
+### Função teto (ceiling)
+
+A função teto de um número real $x$ é:
+$$
+\lceil x \rceil
+$$
+Ela representa o menor inteiro maior ou igual a $x$.
+
+Propriedade:
+$$
+x - 1 < \lfloor x \rfloor \leq x \leq \lceil x \rceil < x + 1
+$$
+para todo $x \in \mathbb{R}$.
+
+---
+
+### Divisão
+
+Se $m \geq 0$ e $n > 0$ são inteiros, então:
+$$
+\frac{m}{n}
+$$
+representa a divisão de $m$ por $n$.
+
+Exemplo:
+$$
+7 \div 2 = \lfloor \frac{7}{2} \rfloor = 3
+$$
+
+---
+
+### Operador módulo
+
+O operador módulo é definido por:
+$$
+m \mod n = m - n \cdot \left\lfloor \frac{m}{n} \right\rfloor
+$$
+
+Interpretação: $m \mod n$ é o **resto** da divisão de $m$ por $n$.
+
+---
+
+### Fatorial
+
+Se $m$ é um inteiro positivo:
+$$
+m! = m \cdot (m - 1)!
+$$
+
+Definição especial:
+$$
+0! = 1
+$$
+
+---
+
+### Fórmula de Stirling
+
+Aproximação para o fatorial de $n$:
+$$
+n! \approx \sqrt{2\pi n} \left( \frac{n}{e} \right)^n
+$$
+
+---
+
+### Coeficiente binomial
+
+Para inteiros $n$ e $r$ com $0 \leq r \leq n$:
+$$
+\binom{n}{r}
+$$
+
+Representa o número de maneiras de escolher $r$ elementos de um conjunto com $n$ elementos, **sem considerar a ordem**.
+
+
+> See more: [Miscellaneous](https://google.com)
+
+
+## Tabela de Operadores e Funções Matemáticas
+
+| Conceito              | Notação                     | Definição Formal                                                                 | Exemplo                                      |
+|-----------------------|-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------|
+| Piso (floor)          | $$\lfloor x \rfloor$$       | Maior inteiro menor ou igual a $$x$$                                            | $$\lfloor -3.5 \rfloor = -4$$                |
+| Teto (ceiling)        | $$\lceil x \rceil$$         | Menor inteiro maior ou igual a $$x$$                                            | $$\lceil 2.3 \rceil = 3$$                    |
+| Divisão inteira       | $$m \div n$$                | $$\lfloor \frac{m}{n} \rfloor$$                                                 | $$7 \div 2 = 3$$                             |
+| Módulo                | $$m \mod n$$                | $$m - n \cdot \lfloor \frac{m}{n} \rfloor$$                                     | $$7 \mod 2 = 1$$                             |
+| Fatorial              | $$n!$$                      | $$n! = n \cdot (n - 1)!$$ com $$0! = 1$$                                         | $$5! = 120$$                                 |
+| Stirling (aprox.)     | $$n! \approx \sqrt{2\pi n} \left( \frac{n}{e} \right)^n$$ | Aproximação para grandes $$n$$                                 | $$10! \approx \sqrt{20\pi} \left( \frac{10}{e} \right)^{10}$$ |
+| Coef. binomial        | $$\binom{n}{r}$$            | Número de combinações de $$r$$ elementos entre $$n$$                            | $$\binom{5}{2} = 10$$                        |
+| Soma                  | $$\sum_{i=1}^{n} f(i)$$     | Soma dos valores de $$f(i)$$ de $$i = 1$$ até $$n$$                             | $$\sum_{i=1}^{3} i = 1 + 2 + 3 = 6$$         |
+| Soma condicional      | $$\sum_{P(i)} f(i)$$        | Soma dos $$f(i)$$ para os $$i$$ que satisfazem a propriedade $$P$$              | $$\sum_{\substack{i=1 \\ i \text{ ímpar}}}^{10} i = 25$$ |
+| Produto               | $$\prod_{i=1}^{n} f(i)$$     | Produto dos valores de $$f(i)$$ de $$i = 1$$ até $$n$$                          | $$\prod_{i=1}^{3} i = 1 \cdot 2 \cdot 3 = 6$$ |
+| Logaritmo             | $$\log_b x$$                | Único $$y$$ tal que $$b^y = x$$                                                 | $$\log_{10} 1000 = 3$$                       |
+| Mudança de base       | $$\log_a x = \frac{\log_b x}{\log_b a}$$ | Conversão entre bases de logaritmo                          | $$\log_2 8 = \frac{\log_{10} 8}{\log_{10} 2}$$ |
+| Logaritmo duplo       | $$\log \log n$$             | Logaritmo do logaritmo de $$n$$                                                 | $$\log \log 1000$$                           |
+| Logaritmo ao quadrado | $$\log^2 n$$                | Quadrado do logaritmo de $$n$$                                                  | $$\log^2 10 = (\log 10)^2 = 1^2 = 1$$        |
+
+
