@@ -1,4 +1,4 @@
-# O que é Algoritmo?
+# What is Algorithm?
 ## Alguns passos antes de definirmos
 A palavra "algoritmo" remonta eras da antiguidade até os dias atuais, sua origem se data por causa do matematico persa, Muhammad Al-Khwarizmi, que é conhecido como "pai da álgebra" e que a palavra "algoritimo" vem de seu nome latinizada
 
@@ -62,11 +62,25 @@ Indo na contra-mão do que se pensa, algoritimos incorretos podem ser uteis as v
 
 Um algoritimo pode ser especificado em ptbr ou inglês, como um programa de computador, ou como um hardware design. O único requisito é que a especificação deve prover uma descrição precisa do procedimento computacional a ser seguido
 
+Além do que podemos pensar existem algoritmos que não são **[algoritmos deterministico](#)**, que input tem um output previsto, já que algumas funções podem gerar saídas aleatórias assim temos os **[algoritmos probabilisticos](#)**
 
+<note>
+O ponto importante aqui é que "aleatório" não significa arbitrario, pelo contrario, nós usamos valores escolhidos de modo que a probabilidade dos valores escolhidos seja conhecida e controlada 
+</note>
 
+Uma instrução como "escolha um número entre 1 e 6" de modo que não tem detalhes dados, isso não é aceitavel num algoritmo. Portando, para ser aceitavel precisaria ter mais informações e ser dito deste modo: "escolha um número entre 1 e 6 de modo que cada valor possa ter a mesma probabilidade de ser escolhido"
 
+Quando nós usamos um algoritmo para calcular a resposta para um problema particular, nós usualmente assumimos que as regras vão, se aplicadas corretamente vai gerar a resposta correta. Um conjunto ode regras que calcula que $23 \times 51 = 1170$ isso não é geralmnete util na pratica. Se queremos calcular a $\sqrt{2}$ para uma instância, não teremos algoritmos que podem nos ajudar com uma resposta exata na notação decimal
 
+Nesse caso, nós devemos nos contentar if um algoritmo pode nos dar uma resposta que é precisa com a nossa escolha: 4 casas de precisão ou 10 casas, ou qualquer nos interesse
 
+Existem problemas para os quais não se conhecem algoritmos práticos. Para esses problemas usamos um dos algoritmos disponiveis para encontrar a resposta exata o que na maioria dos casos toma muito tempo. Quando isso acontece nós somos obrigados, se for preciso a termos um tipo de solução para o problema, buscando um conjunto de regras que nos da uma boa aproximação a resposta correta e que nós podemos executar em um tempo razoavel. Se nós podemos provar isso a resposta computada pelo conjunto de regras não está muito errada, ou então muito melhor. Algumas vezes isso não é possivel e podemos contar com a boa sorte
+
+Esse tipo de procedimento baseado no otimistmo e frequentemente com o suporte teorico minimo é chamado de "**[algoritmo heuristico](#)**", ou simplesmente, "**heuristica**"    
+
+<note>
+Assim heurística seria uma solução que se volta a prática, ou seja, é pragmatica utilizando conhecimentos do senso comum e "regras de bolso" para se ter a prática e velocidade em troca da perfeição
+</note>
 
 
 

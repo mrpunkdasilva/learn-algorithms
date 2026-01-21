@@ -15,4 +15,8 @@
         <description>Created after removal of "Eficiência" from Learn Algorithms</description>
         <accepts>Efficiency.html</accepts>
     </rule>
+    <rule id="2048d3d4">
+        <description>Created after removal of "Classificação de Algoritmos" from Learn Algorithms</description>
+        <accepts>Classication.html</accepts>
+    </rule>
 </rules>
