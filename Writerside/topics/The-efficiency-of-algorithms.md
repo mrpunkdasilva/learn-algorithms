@@ -25,6 +25,13 @@ Similarmente, quando nós falamos sobre grafos, nós usualmente mensuramos o tam
 
 No entanto quando nos afastamos dessa regra geral, quando falamos de problemas envolvendo inteiros, nós devemos algumas vezes temos que lidar com a eficiencia de nossos algoritmos em termos de valor da instância a ser considerada, tratando então o tamanho (que deve ser o número de bits necessarios para representar esse valor em binario)
 
-A vantagem da abordagem teorica é que isso não depende do computador sendo usado, da linguagem de programação, alguma skill de programação. Salva ambos o tempo que poderia ter sido gasto desnecessariamente um algoritimo ineficiente e o tempo da máquina que poderia ser gasto testando. Mais significante, isso nos permite estudar a eficiencia dde um algoritmo quando usado numa instância de qualquer tamanho
+**A vantagem da abordagem teorica é que isso não depende do computador sendo usado, da linguagem de programação, alguma skill de programação**. Salva ambos o tempo que poderia ter sido gasto desnecessariamente um algoritimo ineficiente e o tempo da máquina que poderia ser gasto testando. Mais significante, isso nos permite estudar a eficiencia dde um algoritmo quando usado numa instância de qualquer tamanho
 
-Isso não é frequentemente o caso com o empirical approach, onde considerações praticas deve forçar a gente a testar nosso algoritmo somente com um pequeno numero de instâncias arbitrarias escolhidas de tamanho moderado. A partir disso frequentemente tem novas descoberdas de algoritmos novos para performar melhor que o predecessor somente quando ambos usam grandes instâncias, esse último ponto é particularmente importante
+Isso não é frequentemente o caso com o **empirical approach, onde considerações praticas deve forçar a gente a testar nosso algoritmo somente com um pequeno numero de instâncias arbitrarias escolhidas de tamanho moderado**. A partir disso frequentemente tem novas descoberdas de algoritmos novos para performar melhor que o predecessor somente quando ambos usam grandes instâncias, esse último ponto é particularmente importante
+
+Também podemos analisar algoritmos usando o **_hybrid approach_**, que consistem na forma da função de descrever a eficiencia do algoritmo é determinada de modo teorico
+
+Usando essa abordagem podemos predizer o tempo que uma implementação real vai levar para resolver uma instância muito larga que será usada nos testes. Entretanto claro que não podemos extrapolar quebrano as considerações teoricas; predições feitas sem o suporte da base teorica serão imprecisas, se não erradas. 
+
+Se quisermos mensurar o quanto de armazenamento um aloritmo usa como uma função do tamanho de instâncias, existe uma unidade natural para nós, nomeada de _bit_.
+
