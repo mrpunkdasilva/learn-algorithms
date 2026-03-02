@@ -17,7 +17,7 @@ Ao longo dos _Domus_ vamos comparar os algoritmos com base em sua _eficiencia_ q
 
 <note>
 Um desses exemplos de outro requerimento são número de processadore, pensariamos nisso se estivessemos precisando de algoritmo paralelos e também artificial ou uma combinação
-</note>
+</note> 
 
 O tamanho de uma **instância corresponde formalmente ao número de bits necessarios para representar a instância no computador**, usando algum modelo de código definido precisamente e compacto. Entretando para fazer nosa analise clara, usualmente somos menos formal, então usamos a palavra "size" para significar algum intereiro que de alguma forma mensuramos o número de compponentes numa instância. Por exemplo, quando nós falamos sobre ordenação, usualmente nós medimos o tamanho de uma instância pelo número de itens para ser ordenado, ignorando o fato que cada um desses itens deveria tomar mais que um bit para representação no computador. 
 
@@ -33,5 +33,15 @@ Também podemos analisar algoritmos usando o **_hybrid approach_**, que consiste
 
 Usando essa abordagem podemos predizer o tempo que uma implementação real vai levar para resolver uma instância muito larga que será usada nos testes. Entretanto claro que não podemos extrapolar quebrano as considerações teoricas; predições feitas sem o suporte da base teorica serão imprecisas, se não erradas. 
 
-Se quisermos mensurar o quanto de armazenamento um aloritmo usa como uma função do tamanho de instâncias, existe uma unidade natural para nós, nomeada de _bit_.
+| **Abordagem**        | **Características**                                                                 | **Vantagens**                                                                                           | **Limitações**                                                                                   |
+|-----------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Teórica**           | Baseada em análise matemática e independente de computador, linguagem ou skill.     | Não depende da máquina ou linguagem.<br>Economiza tempo evitando algoritmos ineficientes.<br>Permite estudar eficiência em qualquer tamanho de instância. | Pode ser abstrata demais.<br>Nem sempre reflete o desempenho real em implementações práticas. |
+| **Empírica**          | Testa algoritmos em instâncias escolhidas e observa desempenho real.                | Dá resultados práticos e observáveis.<br>Pode revelar diferenças de desempenho em instâncias grandes. | Normalmente limitado a instâncias pequenas/moderadas.<br>Pode não capturar comportamento em larga escala. |
+| **Híbrida**           | Combina análise teórica com testes práticos; usa funções teóricas para prever tempo. | Permite prever desempenho em instâncias muito grandes.<br>Une rigor teórico com validação prática.    | Extrapolações sem base teórica podem ser imprecisas.<br>Requer equilíbrio entre teoria e prática. |
+
+Se quisermos mensurar o quanto de armazenamento um algoritmo usa como uma função do tamanho de instâncias, existe uma unidade natural para nós, nomeada de _bit_.
+
+Independente da máquina sendo usada, a noção de bit do armazenamento é bem definido. Se na outra mão , como é mais frequente o caso, **nós queremos mensurar a eficiencia de um algoritmo pelo tempo que demora para chegarmos a uma resposta**, não existe uma escolha obvia
+
+Uma resposta para esse problema é dado pelo _principio da invariância_, possuindo dois estados diferentes do mesmo algoritmo não vai diferir na eficiencia para mais que alguma contante multiplicativa
 
