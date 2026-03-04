@@ -34,15 +34,22 @@ _Figura representativa do algoritmo de insertion sort:_
 
 ![Figura a cerca do Insertion Sort](image.png)
 
+Para ficar mais claro, invariantes de loop é uma adaptação da indução matematica para a computação, só que a principal caracteristica que difere um conceito da outra é que a invariante de loop usamos para provar que uma condição é valida até que um algoritmo termine, na indução a prova se estende ao infinito
 
 
 Loop invariants nos ajuda a entender porque um algoritmo é correto. Quando você usa um loop invariant, você precisa mostrar 3 coisas:
 
-**Initialization:** É a primeira iteração do loop
+**Initialization:** É **provar** que a invariante é verdadeira antes da primeira iteração do loop
+**Maintenance:** Tem que **mostrar** que se o invariante for verdadeiro antes de uma volta do loop, ele permanece verdadeiro antes da volta seguinte
+**Termination:** Nesta etapa afirma que quando o loop chegar ao fim, teremos uma **propriedade util** par mostrarmos que o algoritmo atingiu o seu objetivo
 
+> Quando as duas primeiras propriedades são atingidas, o loop invariant é verdadeiro para cada iteração 
 
+A prova por loop invariant é a forma da indução matematica, onde para provar que a propriedade mantem, você prova o caso base e um passo indutivo
 
+<note>
 
+Então para provar um algoritmo é como **provar uma fórmula matemática**, você pega caso base mostrando que ele tá certo e que cada passado repetitivo mantem ela correta, assim mantendo ela correta ao parar
 
-
+</note>
 

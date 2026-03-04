@@ -43,5 +43,14 @@ Se quisermos mensurar o quanto de armazenamento um algoritmo usa como uma funç�
 
 Independente da máquina sendo usada, a noção de bit do armazenamento é bem definido. Se na outra mão , como é mais frequente o caso, **nós queremos mensurar a eficiencia de um algoritmo pelo tempo que demora para chegarmos a uma resposta**, não existe uma escolha obvia
 
-Uma resposta para esse problema é dado pelo _principio da invariância_, possuindo dois estados diferentes do mesmo algoritmo não vai diferir na eficiencia para mais que alguma contante multiplicativa
+Uma resposta para esse problema é dado pelo _principio da invariância_, possuindo dois estados diferentes do mesmo algoritmo não vai diferir na eficiencia para mais que alguma contante multiplicativa,
 
+Por exemplo, se essa constante for de 5, então nós sabemos que se a primeira implementação leva 1 segundo para solucionar instâncias de tamanho particular então a segunda implmentação não vai levar mais que 5 segundos para solucionar as mesmas instâncias
+
+> Mesmo que talvez esteja sendo usado uma maquina diferente, ou escrito em uma linguagem de programação diferente
+
+Sendo mais preciso e formal, se duas implementações do mesmo algoritmo tomam $t_{1}(n)$ e $t_{2}(n)$ segundos, respoectivamente para solucionar uma instância de tamanho $n$ então existem sempre uma constante positiva $c$ e $d$ também temos $t_{1}(n) \leq ct_{2}(n)$  e $t_{2}(n) \leq dt_{1}(n)$ qualquer $n$ é suficientemente largo 
+
+Em outras palavras, o tempo de execução da implementação é limitado pela por uma constante multiplicativa de tempo de execuçãodo outra, a escolha de qual implementação vai primeiro ou segundo é irrelevante
+
+A condição que $n$ seja suficiente larga não é realmente necessaria:  
