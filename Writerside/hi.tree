@@ -19,5 +19,6 @@
         <toc-element topic="Problems-and-instances.md"/>
         <toc-element topic="The-efficiency-of-algorithms.md"/>
         <toc-element topic="Insersion-Sort.md"/>
+        <toc-element topic="Analysing-Algorithms.md"/>
     </toc-element>
 </instance-profile>
