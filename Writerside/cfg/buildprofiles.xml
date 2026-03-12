@@ -4,10 +4,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <primary-color>forest</primary-color>
-        <og-twitter></og-twitter>
-        <og-image></og-image>
-        <header-logo></header-logo>
+        <primary-color>strawberry</primary-color>
     </variables>
 
     <footer>
@@ -18,11 +15,8 @@
         <copyright>Punk Domus</copyright>
     </footer>
 
-    <icons instance="hi">
+    <llms-txt single-file="true"/>
 
-    </icons>
-
-    <llms-txt single-file="true"  />
-    <sitemap priority="0.5" change-frequency="monthly" />
+    <sitemap priority="0.5" change-frequency="monthly"/>
 
 </buildprofiles>
