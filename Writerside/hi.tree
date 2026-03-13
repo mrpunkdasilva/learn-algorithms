@@ -19,6 +19,7 @@
         <toc-element topic="Data-Types.md"/>
         <toc-element topic="Data-Structures.md">
             <toc-element topic="Calculate-Time-and-Space-Complexity.md"/>
+            <toc-element topic="Counting-number-of-steps.md"/>
         </toc-element>
     </toc-element>
     <toc-element toc-title="Domus 0">
