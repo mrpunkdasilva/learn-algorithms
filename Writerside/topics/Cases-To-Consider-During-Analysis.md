@@ -23,5 +23,24 @@ Essa entrada representa um conjunto que permite um algoritmo performar mais deva
 Essa entrada representa o conjunto que permite o algoritmo entregar uma performance na média. Nessa analise é um processo de 4 passos:
 
 1. Determinar o número de diferentes grupos no conjunto de todas as possibilidades podem ser dividas
-2. Determinar a probabilidade que a entrada vai vir de cada um desses grupos
+2. Determinar a probabilidade que a entrada vai vir de cada um desses grupos:
 
+**Lista de estruturas de dados:**
+
+- Linear Data Structures: os elementos que formam uma sequencia
+  - Arrays
+  - Linked Lists
+  - Stacks
+  - Queues
+  - Hash Table
+- Non-Linear Data Structures: os elementos não formam uma sequência
+  - Trees
+  - Graphs
+
+**Operações na Data Structures:**
+
+1. Transversing (percurso):
+   - Acessar cada um dos elementos em uma estrutura de dados é chamdo de _transversal of DS_ (transpor uma estrutura de dados)
+2. Insertion: 
+   - Adicionar um ou mais um dado na estrutura de dado nume posição particular é chamada de _insertion operations_
+3. Deletion
