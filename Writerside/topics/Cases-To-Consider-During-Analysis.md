@@ -43,4 +43,6 @@ Essa entrada representa o conjunto que permite o algoritmo entregar uma performa
    - Acessar cada um dos elementos em uma estrutura de dados é chamdo de _transversal of DS_ (transpor uma estrutura de dados)
 2. Insertion: 
    - Adicionar um ou mais um dado na estrutura de dado nume posição particular é chamada de _insertion operations_
-3. Deletion
+3. Deletion:
+    - Remover um elemento da estrutura de dados é chamada _deletion_. A exclusão deve ser realizada de forma que os elementos restantes não fiquem em estado inconsistente
+4. 
