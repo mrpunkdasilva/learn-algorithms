@@ -39,10 +39,15 @@ Essa entrada representa o conjunto que permite o algoritmo entregar uma performa
 
 **Operações na Data Structures:**
 
-1. Transversing (percurso):
+1. Transversing:
    - Acessar cada um dos elementos em uma estrutura de dados é chamdo de _transversal of DS_ (transpor uma estrutura de dados)
 2. Insertion: 
    - Adicionar um ou mais um dado na estrutura de dado nume posição particular é chamada de _insertion operations_
 3. Deletion:
     - Remover um elemento da estrutura de dados é chamada _deletion_. A exclusão deve ser realizada de forma que os elementos restantes não fiquem em estado inconsistente
-4. 
+4. Searching:
+    - Encontrar a localização de um elemento particular na data structure é chamada de searching operation
+5. Sorting:
+    - Ordenar toda a estrutura de dados numa ordem específica é conhecido como sorting of data 
+6. Merging:
+   - Combinar duas estruturadas de dados em uma, é chamado de fusão de data structures
