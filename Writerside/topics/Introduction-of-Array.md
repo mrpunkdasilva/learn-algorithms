@@ -75,3 +75,22 @@ Passo 4.    Set K := K + 1 [increase counter] [fim do passo 2]
 Passo 5.    Exit
 ```
 
+### 2. Insertion:
+
+Para inserir um elemento na posição $k$ nós precisamos mover elemento iniciando da k-enésima posição abaixo para o elemento ser alocado na posição k
+
+> O melhor cenario é se for inserido na ultima posição que asim não precisaria mover nenhum elemento do lugar
+
+$$INSERT (ARR, N, ITEM POS)$$
+
+Aqui ARR é o linear array com N elementos e POS é o número inteiro temos que POS <= N. Esse procedimento de inserir um elemento na posição POS num array ARR de tamanho N:
+
+```
+1. Set I := N [initialize I para o último elemento]
+2. Repeat steps 3 and 4 while I > =POS:
+3. Set ARR[I+1] := ARR[I] [shifiting elements one position down] 
+4. Set I := I - 1 [decrement I by 1] [end of step 2 loop]
+5. Set ARR[POS] = ITEM [insert ITEM at POST]
+6. Set N := N + 1
+7. Exit
+ ```
