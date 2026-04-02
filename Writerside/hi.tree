@@ -31,4 +31,7 @@
             <toc-element topic="Cases-To-Consider-During-Analysis.md"/>
         </toc-element>
     </toc-element>
+    <toc-element toc-title="Domus 1">
+        <toc-element topic="Introduction-of-Array.md"/>
+    </toc-element>
 </instance-profile>
