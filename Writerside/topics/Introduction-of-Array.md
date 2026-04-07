@@ -90,7 +90,27 @@ Aqui ARR é o linear array com N elementos e POS é o número inteiro temos que 
 2. Repeat steps 3 and 4 while I > =POS:
 3. Set ARR[I+1] := ARR[I] [shifiting elements one position down] 
 4. Set I := I - 1 [decrement I by 1] [end of step 2 loop]
-5. Set ARR[POS] = ITEM [insert ITEM at POST]
-6. Set N := N + 1
+5. Set ARR[POS] = ITEM [inserting ITEM at POST]
+6. Set N := N + 1 [reset the number N of elements in ARR]
 7. Exit
  ```
+
+### 3. Deletion:
+
+Deleção refere-se a operação de remover um elemento existente de uma lista. Depois da deleção o tamanho de um linear array é decrescido pelo fator de um. Como a operação de inserção, deletar um elemento do final de uma linear array pode ser muito fácil
+
+Entretanto para deletar um elemento de outras posições, os elementos são movidos e movidos para cima para preencher o espaço vago do elemento removido
+
+$$DELETE(ARR, N, POS)$$
+
+Aqui ARR é um linear array com N elementos e POS é um inteiro positivo assim $POS \leq N$. Esse procedimento remove um elemento ITEM  da posição POS num array ARR de tamanho N
+
+```
+1.  Set I := POS [Initialize I to the element to be removed]
+2.  Repeat step 3 and 4 while I < N>
+3.  Set ARR[I] := ARR[I + 1] [Shifting elements one position up]
+4.  Set I := I + 1  [Increment I by 1] [End of step 2 loop]
+5.  Set N := N - 1 [Reset the number N of elements in ARR]
+6.  Exit
+
+```
