@@ -147,4 +147,26 @@ Aqui DATA é a linear array com N elementos e ITEM é a informação dada. Esse 
 
 Essa pesquisa é mais rápida que a linear search mas isso pode ser usado somente quando o array é ordenado. Nessa pesquisa nós primeiro buscamos no meio do array, if o valor é encontrado na posição do meio então a pesquisa termina senão o número é pesquisado no lado direito ou esquerdo
 
-Esse processo continua até que o item seja não seja encontrado. Em casa iteração ou em cada rescursão chamada
+Esse processo continua até que o item seja não seja encontrado. Em casa iteração ou em cada chamada recursiva, a pesquisa é reduzida em uma parte. Além de que, para n elementos no array. existira iterações $log_{2}n$ ou chamadas recursivas. Essa complexidade da binary search é O($log_{2}n$) 
+
+Essa complexidade vai ser a mesma independente da posição do elemento, a menos que ele não esteja no array
+
+
+$$BINARY_SEARCH(A, N, ITEM, LOC)$$
+
+Aqui DATA é linear array com N elementos e ITEM é dado um item da informação. Esse procedimento procura a localização LOC do ITEM no A ou seta LOC := 0 se a pesquisa é mal sucedida
+
+```
+1.  Set LOW := 1, HIGH := N [initialize]
+2.  Repeat step 3 to 6 while LOW <= HIGH:
+3.  Set MID := (LOW + HIGH) / 2
+4.  If A[MID] = ITEM, Then: Set POS := MID and Return
+5.  Else: Set HIGH := MID - 1 
+6.  Else: Set HIGH := MID + 1   [End of If structure]
+7.  Set POS := O
+8.  Exit
+```
+
+
+### 5. Merge Operations
+
