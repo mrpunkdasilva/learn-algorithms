@@ -127,4 +127,24 @@ Temos duas abordagens para search operations:
 
 #### Linear Search
 
+É a abordagem de compararmos um por um os elementos em uma sequência linear para localizar o item que buscamos. Assim chamamos esse metodo de linear search ou sequential search. No melhor dos casos, o item deve ocorrer na primeira posição. Nesse caso a search operation termina em sucesso com apena uma comparação. Entretanto o pior caso que pode ocorrer quando o item é presente na última posição ou não está presente no array. Então no pior cenario a linear search é operações de O(n) 
 
+$LINEAR_SEARCH(A, N, ITEM, LOC)$
+
+Aqui DATA é a linear array com N elementos e ITEM é a informação dada. Esse procedimento encontra a localização LOC of ITEM em A ou LOC := 0 se a pesquisa é mal sucedida
+
+```
+1.  Set LOC := 0 [Initialize LOC]
+2.  Set I := 1 [initialize counter]
+3.  Repeat step 4 to 6 while I <= N:
+4.  IF A[I] = ITEM, then: Set LOC := I and Exit [if item is found]
+5.  Set I := I + 1 [End of step 3 loop]
+6. Exit
+```
+
+
+#### Binary Search
+
+Essa pesquisa é mais rápida que a linear search mas isso pode ser usado somente quando o array é ordenado. Nessa pesquisa nós primeiro buscamos no meio do array, if o valor é encontrado na posição do meio então a pesquisa termina senão o número é pesquisado no lado direito ou esquerdo
+
+Esse processo continua até que o item seja não seja encontrado. Em casa iteração ou em cada rescursão chamada
