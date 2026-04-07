@@ -112,5 +112,19 @@ Aqui ARR é um linear array com N elementos e POS é um inteiro positivo assim $
 4.  Set I := I + 1  [Increment I by 1] [End of step 2 loop]
 5.  Set N := N - 1 [Reset the number N of elements in ARR]
 6.  Exit
-
 ```
+
+
+### 4. Search Operations:
+
+Pesquisa é o processo de encontrar a localização de um elemento num linear array. A pesquisa é dita bem sucedidata if o elemento é encontrado e se o elemento não existe então não foi bem-sucedido
+
+Temos duas abordagens para search operations:
+
+1. Linear search
+2. Binary search
+
+
+#### Linear Search
+
+
