@@ -65,7 +65,7 @@ Um algoritimo pode ser especificado em ptbr ou inglês, como um programa de comp
 Além do que podemos pensar existem algoritmos que não são **[algoritmos deterministico](#)**, que input tem um output previsto, já que algumas funções podem gerar saídas aleatórias assim temos os **[algoritmos probabilisticos](#)**
 
 <note>
-O ponto importante aqui é que "aleatório" não significa arbitrario, pelo contrario, nós usamos valores escolhidos de modo que a probabilidade dos valores escolhidos seja conhecida e controlada 
+O ponto importante aqui é que "aleatório" não significa arbitrário, pelo contrário, nós usamos valores escolhidos de modo que a probabilidade dos valores escolhidos seja conhecida e controlada 
 </note>
 
 Uma instrução como "escolha um número entre 1 e 6" de modo que não tem detalhes dados, isso não é aceitavel num algoritmo. Portando, para ser aceitavel precisaria ter mais informações e ser dito deste modo: "escolha um número entre 1 e 6 de modo que cada valor possa ter a mesma probabilidade de ser escolhido"

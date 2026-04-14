@@ -20,6 +20,7 @@
         <toc-element topic="Data-Structures.md">
             <toc-element topic="Calculate-Time-and-Space-Complexity.md"/>
             <toc-element topic="Counting-number-of-steps.md"/>
+            <toc-element topic="List-of-Data-Strucutures.md"/>
         </toc-element>
     </toc-element>
     <toc-element toc-title="Domus 0">
@@ -29,5 +30,8 @@
         <toc-element topic="Analysing-Algorithms.md">
             <toc-element topic="Cases-To-Consider-During-Analysis.md"/>
         </toc-element>
+    </toc-element>
+    <toc-element toc-title="Domus 1">
+        <toc-element topic="Introduction-of-Array.md"/>
     </toc-element>
 </instance-profile>
