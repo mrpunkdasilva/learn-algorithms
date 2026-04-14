@@ -169,4 +169,29 @@ Aqui DATA é linear array com N elementos e ITEM é dado um item da informação
 
 
 ### 5. Merge Operations
+Merging é o processo de combinar os elementos de duas estruturas similares em uma única estrututra. Suope-se que os dois arrays estão ordenados então o foco seria combinar eles num array também ordenado
+
+$$PROCEDURE MERGE(ARR1, ARR2, ARRR3, N1, N2)$$
+
+> O procedimento seria mergear dois arrays ordenados: ARR1 e ARR2 em ARR3 de respectivos tamanhos N1, N2 e N1 + N2
+
+```
+1.  Set I := 1, J := 1, K := 1
+2.  Repeat step 4 and 5 while I <= N1 and J <= N2
+3.  If ARR1[I] < ARR2[J], then:
+4.      Set ARR3[K] ARR1[I]
+5.      Set I := I + 1 [Increment by 1]
+6.  Else:
+7.      Set ARR3[K] := ARR2[j]
+8.      Set J := J+1 [increment j by 1] [end of if strucuture]
+9.  Set K := K + 1 [increment K by 1] [end of step 2 loop]
+10. Repeat steps 11 and 12 while I <= N1 [remaining of ARR1]
+11.     Set ARR3[K] := ARR[1]
+12.     Set K := K + 1, I := 1 [End of step 5 loop]
+13. Repeat steps 14 and 15 while J <= N2 [Remaining of ARR2]
+14.     Set ARR3[K] := ARR[J]
+15.     Set K := K + 1. J := + 1
+16. Exit 
+```
+
 
