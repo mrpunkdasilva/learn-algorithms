@@ -37,5 +37,7 @@
     </toc-element>
     <toc-element toc-title="Domus 2">
         <toc-element topic="Sorting.md"/>
+        <toc-element topic="1-SELECTION-SORTING.md"/>
+        <toc-element topic="2-BUBBLE-SORTING.md"/>
     </toc-element>
 </instance-profile>
